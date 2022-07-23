@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("Sea-Background.jpeg");
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  max-width: 960px;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 5em;
+}
+
+.description {
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #ff9900;
+}
+
+h2 {
+ font-family: "Montserrat", sans-serif;
+ text-transform: uppercase;
+}
+
+h1 {
+ font-family: "Montserrat", sans-serif;
+}
+
+.game-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4em;
+}
+
+.score {
+  text-align: center;
+  border-radius: 50px;
+   min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(#edf2a0, #e9f25c);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+  color:#0f0f0f;
+
+}
+
+.score__title {
+  font-size: 3em;
+}
+
+.score__value {
+  font-size: 7em;
+  color: #000000;
+}
+
+
+.score-board {
+  background-color: blue;
+  border-radius: 20px;
+  margin-top: 200px;
+  margin-left: 200px;
+  margin-bottom: 100px;
+  min-width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(#edf2a0, #e9f25c);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+  color:#0f0f0f;
+}
+
+.game-board {
+  height: 580px;
+  width: 580px; 
+  background-color: #6d7f9780;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px #fff inset, 0 1px 0 #00000080;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.candy {
+  height: 70px;
+  width: 70px;
+}
